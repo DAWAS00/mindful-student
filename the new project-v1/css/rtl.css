@@ -1,0 +1,85 @@
+/* RTL Support */
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+
+.nav-links {
+    padding-right: 0;
+}
+
+.feature-card,
+.awareness-card,
+.info-card,
+.support-item,
+.testimonial,
+.value-card,
+.team-member,
+.partner {
+    text-align: right;
+}
+
+.warning-signs li:before {
+    right: 0;
+    left: auto;
+}
+
+.warning-signs li {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+.info-card ul li:before {
+    right: 0;
+    left: auto;
+}
+
+.info-card ul li {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+/* About Page RTL Specific Styles */
+.mission p, 
+.story p,
+.about-hero p,
+.partners p,
+.team p {
+    text-align: right;
+}
+
+.container {
+    text-align: right;
+}
+
+section h2 {
+    text-align: center;
+}
+
+/* Language Switch Styles */
+.language-switch a {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #f0f4f8;
+}
+
+.language-switch a:hover {
+    background-color: #e2e8f0;
+}
+
+/* Adjust spacing for RTL */
+.footer-section {
+    text-align: right;
+}
+
+.footer-section ul {
+    padding-right: 0;
+}
+
+/* Mobile Responsiveness for RTL */
+@media (max-width: 768px) {
+    .nav-links {
+        padding-right: 0;
+    }
+}
